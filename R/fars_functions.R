@@ -10,11 +10,11 @@
 #' @return This function returns the file as a data file.
 #'
 #' @examples
+#'
+#' \dontrun{
 #' fars_read("inputfile.csv")
 #' fars_read("accident_2001.csv")
 #' fars_read(filenamevar)
-#'
-#' \dontrun{
 #' fars_read("madeupfile.ext")
 #' }
 #'
@@ -40,10 +40,10 @@ fars_read <- function(filename) {
 #' @return A properly formatted file name, of the format "accident_\code{year}.csv.bz2"
 #'
 #' @examples
-#' make_filename(1991)
-#' make_filename(2001)
 #'
 #' \dontrun{
+#' make_filename(1991)
+#' make_filename(2001)
 #' make_filename("ababab")
 #' }
 #'
@@ -65,11 +65,11 @@ make_filename <- function(year) {
 #' @return This function returns a data set of the years specified.
 #'
 #' @examples
+#'
+#' \dontrun{
 #' fars_read_years(c(1991,1992,1993))
 #' fars_read_years(2001)
 #' fars_read_years(c(1991,2002,2013))
-#'
-#' \dontrun{
 #' fars_read_years("ababab")
 #' }
 #'
@@ -102,11 +102,11 @@ fars_read_years <- function(years) {
 #' @return This function returns a dataset containing the year, month and number of observations.
 #'
 #' @examples
+#'
+#' \dontrun{
 #' fars_summarize_years(c(1991,1992,1993))
 #' fars_summarize_years(2001)
 #' fars_summarize_years(c(1991,2002,2013))
-#'
-#' \dontrun{
 #' fars_summarize_years("ababab")
 #' }
 #'
@@ -140,10 +140,10 @@ fars_summarize_years <- function(years) {
 #'    plotted on it
 #'
 #' @examples
-#' fars_map_state(12,2015)
-#' fars_map_state(21,2007)
 #'
 #' \dontrun{
+#' fars_map_state(12,2015)
+#' fars_map_state(21,2007)
 #' fars_summarize_years(87,"aaa")
 #' }
 #'

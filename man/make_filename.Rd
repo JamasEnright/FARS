@@ -17,10 +17,10 @@ This function takes in year (\code{year}) and returns a properly formatted strin
 the file in the local directory.
 }
 \examples{
-make_filename(1991)
-make_filename(2001)
 
 \dontrun{
+make_filename(1991)
+make_filename(2001)
 make_filename("ababab")
 }
 

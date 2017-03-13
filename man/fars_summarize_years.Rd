@@ -17,11 +17,11 @@ This takes in a vector of \code{years} and reads the data for them. Then this fu
 creates a summary of the number of observations in each year and month.
 }
 \examples{
+
+\dontrun{
 fars_summarize_years(c(1991,1992,1993))
 fars_summarize_years(2001)
 fars_summarize_years(c(1991,2002,2013))
-
-\dontrun{
 fars_summarize_years("ababab")
 }
 

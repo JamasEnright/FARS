@@ -20,11 +20,11 @@ The function expects the file to be in a CSV format.
 It checks to make sure the file exists first, and generates an error if it does not.
 }
 \examples{
+
+\dontrun{
 fars_read("inputfile.csv")
 fars_read("accident_2001.csv")
 fars_read(filenamevar)
-
-\dontrun{
 fars_read("madeupfile.ext")
 }
 

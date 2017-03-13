@@ -20,11 +20,11 @@ Each file is read for each year, and added to an overall data set.
 If there is any year without an associated data file, the function will report a warning and cease working.
 }
 \examples{
+
+\dontrun{
 fars_read_years(c(1991,1992,1993))
 fars_read_years(2001)
 fars_read_years(c(1991,2002,2013))
-
-\dontrun{
 fars_read_years("ababab")
 }
 

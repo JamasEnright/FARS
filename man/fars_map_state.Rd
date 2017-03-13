@@ -25,10 +25,10 @@ The function checks that the state is a valid state in the data set.
 If there are no accidents, no plot is produced.
 }
 \examples{
-fars_map_state(12,2015)
-fars_map_state(21,2007)
 
 \dontrun{
+fars_map_state(12,2015)
+fars_map_state(21,2007)
 fars_summarize_years(87,"aaa")
 }
 
