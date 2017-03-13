@@ -1,0 +1,22 @@
+Package: FARS
+Type: Package
+Title: Loads in and Maps FARS data
+Version: 0.1.0
+Author: Jamas Enright
+Maintainer: Jamas Enright <JamasEnright@somewhere.net>
+Description: This is a set of functions that will load in FARS data. It assumes the data is formatted in a particular way in csv files.
+    It can also map the data for a particular state and year.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    readr,
+    magrittr,
+    tidyr,
+    graphics,
+    maps
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
